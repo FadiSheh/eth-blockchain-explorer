@@ -7,6 +7,7 @@
 ## TO DO
 - Transaction details
 - Address details
+- NFT metadata
 - Style
 
 ## Available Scripts
