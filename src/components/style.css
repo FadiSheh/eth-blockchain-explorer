@@ -1,0 +1,218 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+
+.eth-price {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-left: auto;
+}
+
+.logoHeader {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav {
+    margin-top: 5px;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-right a {
+    margin-left: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-right a:hover {
+    text-decoration: underline;
+}
+
+.github-logo {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.blocks-container {
+    font-family: 'Courier New', Monospace;
+    font-size: 12px;
+    max-width: 900px;
+    width: 90%;
+    margin: 10px auto;
+    color: #333;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.blocks-container h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.blocks-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0;
+}
+
+.blocks-container th,
+.blocks-container td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 8px 16px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.clickable {
+    cursor: pointer;
+    font-size: 12px;
+    color: rgb(45, 45, 177);
+}
+
+
+.fee-recipient-container {
+    display: flex;
+    align-items: center;
+}
+
+.fee-recipient-label {
+    white-space: nowrap;
+
+}
+
+.fee-recipient {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+    margin-left: 8px;
+    white-space: nowrap;
+
+}
+
+.transcationAddress {
+    font-size: 12px;
+    color: black;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.transactions {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(45, 45, 177);
+    max-width: 100%;
+    display: block;
+    white-space: nowrap;
+
+}
+
+
+
+.fee-recipient-label {
+    font-size: 12px;
+    color: black;
+}
+
+.timestamp {
+    color: rgb(100, 99, 99);
+}
+
+.blocks-container tr:hover {
+    background-color: #f1f1f1;
+}
+
+.loading {
+    text-align: center;
+    padding: 50px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.hash {
+    max-width: 90px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.transaction-count {
+    display: flex;
+    align-items: center;
+}
+
+.transactions {
+    margin-right: 4px;
+}
+
+.value {
+    margin-right: 4px;
+}
+
+.currency {
+    font-weight: bold;
+}
+
+.value-button {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    font-size: 0.9em;
+    margin: 2px;
+    align-items: center;
+}
+
+.blocks-container tr {
+    height: 50px;
+    overflow: hidden;
+}
